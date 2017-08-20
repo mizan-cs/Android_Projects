@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ID_todayClassItem"
+            android:title="Today Class"
+            android:icon="@drawable/icon_today_class" />
+        <item
+            android:id="@+id/ID_allClassRutineItem"
+            android:title="All Class Rutine"
+            android:icon="@drawable/icon_all_class_rutine" />
+        <item
+            android:id="@+id/ID_TeacherListItem"
+            android:title="Teacher list"
+            android:icon="@drawable/icon_teacher_list" />
+        <item
+            android:id="@+id/ID_myScheduleItem"
+            android:title="My Schedule"
+            android:icon="@drawable/icon_my_schedule" />
+        <item
+            android:id="@+id/ID_aboutGpiItem"
+            android:title="About GPI"
+            android:icon="@drawable/icon_about_gpi" />
+    </group>
+
+    <item android:title="Education">
+
+        <menu>
+            <item
+                android:title="Computer Science"
+                android:id="@+id/ID_computerScienceItem"
+                android:icon="@drawable/icon_computer_science"
+                ></item>
+            </menu>
+    </item>
+
+</menu>

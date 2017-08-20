@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/header_background">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/engineering_icon"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageView" />
+    <TextView
+        android:id="@+id/gpoalgonjpoly"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:text="Gopalgonj Polytechnic Institute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:text="www.gopalgonjpoly.gov.bd"
+        android:layout_below="@+id/gpoalgonjpoly"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

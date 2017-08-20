@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context="com.project.mizan.fragmentlearn.Mizan">
+
+
+    <EditText
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:hint="Numbr 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/ID_number1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <EditText
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:gravity="center"
+        android:hint="Number 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/ID_number2"
+        android:layout_below="@+id/ID_number1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/ID_plus"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Answare"
+        android:id="@+id/ID_answare1"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/ID_plus"
+        android:layout_alignRight="@+id/ID_plus"
+        android:layout_alignEnd="@+id/ID_plus" />
+</RelativeLayout>

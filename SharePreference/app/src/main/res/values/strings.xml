@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SharePreference</string>
+    <string name="select_name">Select Name </string>
+    <string-array name="dept_list">
+        <item>CmT</item>
+        <item>EnT</item>
+        <item>FT</item>
+        <item>RAT</item>
+        <item>ET</item>
+    </string-array>
+</resources>

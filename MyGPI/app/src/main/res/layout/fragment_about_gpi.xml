@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fff"
+    tools:context="com.project.mizan.mygpi.AboutGPI">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="#008000"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Gopalganj polytechnic institute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#008000"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="Principal\nMahananda Majumder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="center"
+                android:text="Phone: 88-0668-58015 , Fax: 88-0668-58015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/gopalganj_polytechnic_institute"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="250dp" />
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/ID_AboutGPI_Text"
+                android:text="Among the Polytechnic Institute of the Polytechnic of gopalganja Polytechnic. This is usually one of the grades of the Polytechnic. It is conducted by the Bangladesh Technical Education Board. this is a one of the best Diploma in Engineering institute in Gopalganj. this polytechnic institute also have stipend facility and Hostel facility in this polytechnic institute. This polytechnic fully maintain by Technical education board in dhaka, bangladesh. gopalganj polytechnic have four department is Computer Engineering technology, food engineering technology, Electronics engineering technology, Refrigeration and air condition Diploma in Engineering technology in this polytechnic institute. And also more fully details information in gopalganj polytechnic institute is given below."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FF005F"
+                android:textSize="25sp"
+                android:text="Department:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#008000"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:text="Computer Engineering:"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ID_AboutCmTText"
+                android:text="Now the best engineering technology is computer Engineering technology. you can also know about computer engineering Latest info here. It is a Important Technology In present World"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#008000"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:text="Electronics Engineering:"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ID_AboutEnTText"
+                android:text="About EnT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#008000"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:text="Refrigeration and Air Condition Technology:"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ID_AboutRATText"
+                android:text="About EnT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#008000"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:text="Food Engineering:"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ID_AboutFTText"
+                android:text="About EnT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.project.mizan.mygpi.Developer">
+    <TextView
+        android:gravity="center"
+        android:text="Developed by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#EB3D9F"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Mizanur Rahman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--<ImageView
+        android:id="@+id/ID_DeveloperImage"
+        android:src="@drawable/developer_pic"
+        android:layout_width="170dp"
+        android:layout_height="170dp" />-->
+    <TextView
+        android:textColor="#EB3D9F"
+        android:gravity="center"
+        android:text="Dept. of CmT,GPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="আপনি যদি মনে করেন app-টি তে কোন ফিচার edit অথবা add করা উচিৎ তাহলে দয়া করে আমার সাথে যোগাযোগ করুন। এবং app এর কোন information এ ভূল পাইলে দয়া করে developer কে জানান। "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--<TextView
+        android:gravity="center"
+        android:textColor="#EB3D9F"
+        android:text="Phone : 01947-317831"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+</LinearLayout>

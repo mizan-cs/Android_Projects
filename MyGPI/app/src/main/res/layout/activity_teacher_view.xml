@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cbbeb5"
+    tools:context="com.project.mizan.mygpi.TeacherView">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:background="#660066"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ID_ViewTeacherName"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:text="Teacher name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/ID_ViewTeacherImage"
+                    android:src="@drawable/icon_teacher_list"
+                    android:layout_gravity="center"
+                    android:layout_width="190dp"
+                    android:layout_height="170dp" />
+            </LinearLayout>
+            <TextView
+                android:textColor="#003466"
+                android:id="@+id/ID_ShowTeacherEducation"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="BSc in Computer Science and Engineering,IUT,OIC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#000"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="3dp"
+                android:text="--------------------------------------------------"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textColor="#003466"
+                android:id="@+id/ID_ViewTeacherDesignation"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="3dp"
+                android:text="Junior Instructor(Tech)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:textColor="#003466"
+                android:id="@+id/ID_ViewTeacherJob"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Department of Computer Technology\nGopalgonj polytechnic Institute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#000"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="3dp"
+                android:text="--------------------------------------------------"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#003466"
+                android:id="@+id/ID_ViewTeacherMobile"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="3dp"
+                android:text="Mobile : 01921-109194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#003466"
+                android:id="@+id/ID_ViewTeacherEmail"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Email : m.mamun118@yahoo.com\nm.mohiuddin118@gmail.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_gravity="center"
+                android:text="Massage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/ID_ViewTeacherCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_menu_call" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Hello GPI</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="user_dept_list">
+        <item>CmT</item>
+        <item>EnT</item>
+        <item>FT</item>
+        <item>ET</item>
+        <item>RAT</item>
+    </string-array>
+
+    <string-array name="user_samerster_name">
+        <item>1st-Samester</item>
+        <item>3rd-Samester</item>
+        <item>5th-Semester</item>
+        <item>6th-Semester</item>
+    </string-array>
+
+    <string-array name="user_shift_name">
+        <item>1st-Shift</item>
+        <item>2nd-Shift</item>
+    </string-array>
+    <string name="title_activity_teacher_view">TeacherView</string>
+
+</resources>
